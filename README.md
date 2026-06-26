@@ -327,6 +327,7 @@ ________________________________________
 6. Parallel Agent Design
 The Company Agent is the only mandatory first step because every other agent requires the ticker symbol.
 After retrieving the ticker, the remaining retrieval agents work independently.
+"""
                 Company Agent
                       │
                       ▼
@@ -348,6 +349,7 @@ After retrieving the ticker, the remaining retrieval agents work independently.
                       │
                       ▼
                 Decision Agent
+"""
 These agents do not depend on each other, making them ideal candidates for parallel execution.
 ________________________________________
 7. Scheduler Design
