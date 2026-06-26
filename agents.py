@@ -133,27 +133,6 @@ def stock_agent(state):
     }
 
     return state
-def news_agent(state):
-
-    ticker = state["ticker"]
-
-    feed = feedparser.parse(
-
-        f"https://news.google.com/rss/search?q={ticker}"
-
-    )
-
-    headlines = [
-
-        x.title
-
-        for x in feed.entries[:10]
-
-    ]
-
-    state["news"] = headlines
-
-    return state
 
 def news_agent(state):
 
