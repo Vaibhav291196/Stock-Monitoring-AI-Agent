@@ -23,7 +23,7 @@ An AI-powered **Multi-Agent Stock Monitoring System** built using **LangGraph**,
 ## 🏗️ System Architecture
 
 ```text
-                                           User
+                          User
                            │
                            │
                    HTTP REST Request
@@ -34,7 +34,7 @@ An AI-powered **Multi-Agent Stock Monitoring System** built using **LangGraph**,
           ┌────────────────┴─────────────────┐
           │                                  │
           ▼                                  ▼
-   Analyze Company API               Watchlist APIs
+   Analyze Company                   Watchlist (Add/delete) 
           │                                  │
           │                         
           │                                  │
