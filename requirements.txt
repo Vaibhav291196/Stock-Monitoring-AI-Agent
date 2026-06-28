@@ -1,0 +1,12 @@
+fastapi
+uvicorn
+sqlalchemy
+langgraph
+langchain
+langchain-groq
+yfinance
+feedparser
+apscheduler
+python-dotenv
+jinja2
+websockets
