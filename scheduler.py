@@ -13,7 +13,7 @@ def batch_watchlist(watchlist, batch_size):
 
         yield watchlist[i:i + batch_size]
 
-
+# Company information retrieval once every day
 def analyze_company(company):
 
     result = graph.invoke({
